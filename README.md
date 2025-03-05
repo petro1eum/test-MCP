@@ -1,26 +1,35 @@
-# GitHub MCP (Multiple Control Points)
+# GitHub MCP with Smithery AI
 
-This repository demonstrates the capabilities of GitHub's MCP features which allow for programmatic interaction with GitHub repositories.
+This repository demonstrates the capabilities of GitHub's integration with Smithery AI through their MCP (Multiple Control Points) server.
 
-## MCP Features
+## About Smithery AI's GitHub Integration
 
-GitHub MCP provides a set of API endpoints that enable you to:
+[Smithery AI](https://smithery.ai) provides a powerful integration with GitHub through their MCP server, allowing AI-powered interactions with GitHub repositories. This integration enables:
+
+- AI-driven repository management
+- Automated code operations through natural language
+- Intelligent repository analysis and modifications
+- Seamless integration between AI workflows and GitHub
+
+## MCP Server Features
+
+The Smithery AI GitHub MCP server (`@smithery-ai/github`) offers these capabilities:
 
 - Create and manage repositories
-- Add, update, and delete files
+- Add, update, and delete files programmatically
 - Create and manage branches
 - Create and review pull requests
 - Manage issues and comments
 - Search repositories, code, and users
 - Fork repositories
-- And much more!
+- Automate GitHub workflows using AI
 
-## Common MCP Operations
+## Common Operations with Smithery AI's GitHub MCP
 
 ### Repository Operations
 - Create a new repository
 - Fork an existing repository
-- Clone a repository locally
+- Clone a repository
 - Push changes to a repository
 
 ### File Operations
@@ -40,20 +49,21 @@ GitHub MCP provides a set of API endpoints that enable you to:
 - Create pull requests
 - Review and merge pull requests
 
-## Getting Started with GitHub API
+## Getting Started with Smithery AI GitHub Integration
 
-To interact with GitHub programmatically:
+To leverage Smithery AI's GitHub integration:
 
-1. Generate a Personal Access Token in your GitHub settings
-2. Use the token for authentication in API requests
-3. Make requests to the appropriate GitHub API endpoints
+1. Access the Smithery AI platform
+2. Connect to the GitHub MCP server (`@smithery-ai/github`)
+3. Use natural language to perform GitHub operations
+4. No need for manual token management - the integration handles authentication
 
 ## Resources
 
+- [Smithery AI Platform](https://smithery.ai)
 - [GitHub REST API Documentation](https://docs.github.com/en/rest)
 - [GitHub GraphQL API Documentation](https://docs.github.com/en/graphql)
-- [GitHub CLI](https://cli.github.com/)
 
 ---
 
-This repository serves as a test for demonstrating GitHub MCP capabilities.
+This repository serves as a test for demonstrating Smithery AI's GitHub MCP capabilities.
